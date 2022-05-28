@@ -55,7 +55,8 @@ main{
 }
 
 .bienvenidos{
-    margin-bottom: 40px;
+    padding: 15px;
+    color: #ccc;
 }
 
 /*inicio cartelera*/
@@ -64,6 +65,7 @@ main{
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    padding: 25px;
 }
 
 .cartelera{
@@ -77,39 +79,83 @@ main{
 }
 
 .cartelera img{
-    
     max-width: 100%;
 }
 
 /*inicio contacto*/
 
-.content-section{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 100px 0;
-    position: relative;
-    background-size: cover !important;
-    background-position: center;
-    overflow-x: hidden;
+.bienvenida{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: #ccc;
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 
 .container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: #371B58;
+    text-align: center;
+    color: #ccc;
+    padding: 10px;
+    margin: 30px;
+    border-bottom: 2px solid #ccc;
 }
 
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+.contacto{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"]{
+    background-color: #42d179;
+    /*box-shadow: 0 0 10px;*/
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
     position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    left: 5rem;
+    cursor: pointer;
 }
 
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1
+}
+
+.columns{
+    display: flex;
+    padding: 20px;
     
+}
